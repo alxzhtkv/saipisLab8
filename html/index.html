@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>lab8</title>
+</head>
+<body>
+    <div class="box">
+        <form id="form" class="form__style">
+            <p> Your name:</p>
+            <p>
+                <input type="text" name="name" id="name" placeholder="Alexandra" required pattern="[A-Za-zА-Яа-яЁё]+">
+
+            
+            </p>
+           
+                <p>sex:</p> 
+                <p><input list="sex">
+                <datalist id="sex">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="не было">не было</option>
+
+                   </datalist>
+                </p>
+
+                Your email:
+                <p>
+                    <input type="email" id="email" required pattern="[^ @]*@[^ @]*"> 
+                </p>
+               
+                    Your hobby:
+                <p>
+                    <input type="checkbox" name="frequency1" id="checkbox1" value="раз в год и чаще">painting 
+                    <br>
+                    <input type="checkbox" name="frequency2" id="checkbox2" value="раз в 2-3 года">reading 
+                    <br>
+                    <input type="checkbox" name="frequency3" id="checkbox3" value="раз в 3 года и реже">knitting
+                    <br>
+                    <input type="checkbox" name="frequency3" id="checkbox3" value="раз в 3 года и реже">other
+                    <br>
+                </p>
+
+        </form>
+
+    </div>
+    <div class="footer">
+        <div class="buttons">
+            <button class="send-btn btn">Send</button>
+            
+            <button class="fromTXT-btn btn">Get data from .txt</button>
+            <button class="fromXML-btn btn">Get data from .xml</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+</body>
+</html>

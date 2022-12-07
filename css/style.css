@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    background: url(https://i.pinimg.com/originals/d8/39/74/d839742a057e1d111d0373fa614de906.jpg) no-repeat;
+}
+.box{
+    border: white solid 1px;
+    background-color: rgba(51, 51, 51, 0.775);
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+}
+/* .form__style{
+     display;
+} */
+.footer{
+    border: white solid 1px;
+    background-color: rgba(51, 51, 51, 0.775);
+    width: 50%;
+    margin: 50px auto;
+    /* margin: 10px; */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  
+    
+}
+
+.btn{
+    border: white solid 1px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    font-family: "Cormorant";
+    font-size: 18px;
+    color: white;
+    background: rgba(51, 51, 51, 0.775);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: #333;
+}
+.btn:hover{
+    background-color: #333;
+}
